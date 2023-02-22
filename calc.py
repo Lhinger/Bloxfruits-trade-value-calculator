@@ -1,3 +1,5 @@
+# made by lhinger
+
 def price_of(fruit_name: str) -> int: return name_to_price[fruit_name] 
     
 name_to_price = {
