@@ -43,9 +43,16 @@ name_to_price = {
     "leopard": 7800000, "Leopard": 7800000, "lepard": 7800000, "leo": 7800000
 }  
 
-fruit1 = input("Enter first fruit: " )
-fruit2 = input("Enter second fruit: ")
-fruit3 = input("Enter third fruit: ")
-fruit4 = input("Enter fourth fruit: ")
+offerfruit1 = input("Enter the first fruit you are offering: " )
+offerfruit2 = input("Enter the second fruit you are offering: ")
+offerfruit3 = input("Enter the third fruit you are offering: ")
+offerfruit4 = input("Enter the fourth fruit you are offering: ")
 
-print(fruit1, price_of(fruit1), "+", fruit2, price_of(fruit2), "+", fruit3, price_of(fruit3), "+", fruit4, price_of(fruit4), "=", price_of(fruit1) + price_of(fruit2) + price_of(fruit3) + price_of(fruit4))
+print(offerfruit1, price_of(offerfruit1), "+", offerfruit2, price_of(offerfruit2), "+", offerfruit3, price_of(offerfruit3), "+", offerfruit4, price_of(offerfruit4), "=", price_of(offerfruit1) + price_of(offerfruit2) + price_of(offerfruit3) + price_of(offerfruit4))
+
+receivefruit1 = input("Enter the first fruit you are receiving: " )
+receivefruit2 = input("Enter the second fruit you are receiving: ")
+receivefruit3 = input("Enter the third fruit you are receiving: ")
+receivefruit4 = input("Enter the fourth fruit you are receiving: ")
+
+print(receivefruit1, price_of(receivefruit1), "+", receivefruit2, price_of(receivefruit2), "+", receivefruit3, price_of(receivefruit3), "+", receivefruit4, price_of(receivefruit4), "=", price_of(receivefruit1) + price_of(receivefruit2) + price_of(receivefruit3) + price_of(receivefruit4))
