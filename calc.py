@@ -61,7 +61,7 @@ receivefruit4 = input("Enter the fourth fruit you are receiving: ").lower()
 receivetotal = price_of(receivefruit1) + price_of(receivefruit2) + price_of(receivefruit3) + price_of(receivefruit4)
 
 if offertotal < (40 / 100 * receivetotal):
-    print("Error, offer is less than 40% of receiving value.")
+    print("\033[1;31;40m Offer must be more than 40% of receiving value. \n")
 else:
     print(receivefruit1, price_of(receivefruit1), "+", receivefruit2, price_of(receivefruit2), "+", receivefruit3,
           price_of(receivefruit3), "+", receivefruit4, price_of(receivefruit4), "=",
