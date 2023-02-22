@@ -50,9 +50,15 @@ offerfruit4 = input("Enter the fourth fruit you are offering: ")
 
 print(offerfruit1, price_of(offerfruit1), "+", offerfruit2, price_of(offerfruit2), "+", offerfruit3, price_of(offerfruit3), "+", offerfruit4, price_of(offerfruit4), "=", price_of(offerfruit1) + price_of(offerfruit2) + price_of(offerfruit3) + price_of(offerfruit4))
 
+offertotal = price_of(offerfruit1) + price_of(offerfruit2) + price_of(offerfruit3) + price_of(offerfruit4)
+
 receivefruit1 = input("Enter the first fruit you are receiving: " )
 receivefruit2 = input("Enter the second fruit you are receiving: ")
 receivefruit3 = input("Enter the third fruit you are receiving: ")
 receivefruit4 = input("Enter the fourth fruit you are receiving: ")
 
-print(receivefruit1, price_of(receivefruit1), "+", receivefruit2, price_of(receivefruit2), "+", receivefruit3, price_of(receivefruit3), "+", receivefruit4, price_of(receivefruit4), "=", price_of(receivefruit1) + price_of(receivefruit2) + price_of(receivefruit3) + price_of(receivefruit4))
+receivetotal = price_of(receivefruit1) + price_of(receivefruit2) + price_of(receivefruit3) + price_of(receivefruit4)
+
+if offertotal < (40/100 * receivetotal): print("Error, offer is less than 40% of receiving value.")
+else: print(receivefruit1, price_of(receivefruit1), "+", receivefruit2, price_of(receivefruit2), "+", receivefruit3, price_of(receivefruit3), "+", receivefruit4, price_of(receivefruit4), "=", price_of(receivefruit1) + price_of(receivefruit2) + price_of(receivefruit3) + price_of(receivefruit4))
+
