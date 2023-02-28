@@ -1,4 +1,4 @@
-# made by lhinger, Discord: SausageGobbler#8015
+# made by lhinger, Discord: ceo of jews#1948
 
 def price_of(fruit_name: str) -> int: return name_to_price[fruit_name]
 
@@ -20,7 +20,7 @@ name_to_price = {
     "revive": 450000,
     "diamond": 550000, "daimond": 550000, "dimond": 550000,
     "light": 900000,
-    "love": 350000,
+    "love": 1750000,
     "rubber": 400000,
     "barrier": 400000,
     "magma": 1100000,
