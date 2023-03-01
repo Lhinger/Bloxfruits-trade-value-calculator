@@ -25,7 +25,7 @@ name_to_price = {
     "barrier": 400000,
     "magma": 1100000,
     "quake": 1100000,
-    "buddha": 2400000, "human: buddha": 2400000", "buddah": 2400000, "budha": 2400000,
+    "buddha": 2400000, "human: buddha": 2400000, "buddah": 2400000, "budha": 2400000,
     "string": 1800000,
     "phoenix": 1700000, "bird: pheonix": 1700000, "pheonix": 1700000, "phenix": 1700000, "fenix": 1700000,
     "portal": 2200000,
